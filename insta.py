@@ -5,7 +5,7 @@ driver = webdriver.Chrome("./chromedriver")
 driver.get("https://www.instagram.com")
 time.sleep(2)
 
-username = "nathan_clrd"
+username = ""
 password = ""
 
 cookie_btn = driver.find_element(by="xpath",value="/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/button[2]")
@@ -23,4 +23,4 @@ time.sleep(2)
 
 login_btn = driver.find_element(by="xpath",value="/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button")
 login_btn.click()
-log
+
